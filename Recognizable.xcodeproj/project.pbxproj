@@ -14,6 +14,7 @@
 		B6C71DFB239B82B300401D3D /* Recognizable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B6C71DF9239B82B300401D3D /* Recognizable.xcdatamodeld */; };
 		B6C71DFD239B82B900401D3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6C71DFC239B82B900401D3D /* Assets.xcassets */; };
 		B6C71E00239B82B900401D3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C71DFE239B82B900401D3D /* LaunchScreen.storyboard */; };
+		B6C71E0A239B830E00401D3D /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B6C71E09239B830E00401D3D /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B6C71DFC239B82B900401D3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6C71DFF239B82B900401D3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6C71E01239B82B900401D3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6C71E09239B830E00401D3D /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B6C71DFE239B82B900401D3D /* LaunchScreen.storyboard */,
 				B6C71E01239B82B900401D3D /* Info.plist */,
 				B6C71DF9239B82B300401D3D /* Recognizable.xcdatamodeld */,
+				B6C71E09239B830E00401D3D /* Inceptionv3.mlmodel */,
 			);
 			path = Recognizable;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6C71E0A239B830E00401D3D /* Inceptionv3.mlmodel in Sources */,
 				B6C71DF5239B82B300401D3D /* ViewController.swift in Sources */,
 				B6C71DF1239B82B300401D3D /* AppDelegate.swift in Sources */,
 				B6C71DFB239B82B300401D3D /* Recognizable.xcdatamodeld in Sources */,
